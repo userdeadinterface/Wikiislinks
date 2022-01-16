@@ -1,13 +1,16 @@
 # Wikiislinks
 Gets link for Icelandic Wikipedia Page from keyword.
 
-Use:
+## Use:
+    from wikicode import WikisGetLink
+    WikisGetLink("Python")
 
-from wikicode import WikisGetLink
-WikisGetLink("Python")
+    
+## Output:
 
-Output:
+    Python    
+    _________    
+    https://is.wikipedia.org/wiki/Python    
 
-Python
-_________
-https://is.wikipedia.org/wiki/Python
+
+
